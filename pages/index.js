@@ -5,12 +5,12 @@ function Homepage() {
       <Head>
         <title>Article Preview Component</title>
       </Head>
-      <div className="mx-auto ">
+      <div className="mx-auto lg:flex lg:flex-row lg:h-auto ">
         <img
-          className="rounded-tr-md rounded-tl-md h-50 w-full"
+          className="rounded-tr-md rounded-tl-md h-50 w-full lg:h-auto lg:w-2/5  lg:rounded-bl-md lg:rounded-tr-none"
           src="/images/drawers.jpg"
         />
-        <div className="bg-white p-8 rounded-bl-md rounded-br-md">
+        <div className=" bg-white p-8 rounded-bl-md rounded-br-md lg:rounded-bl-none lg:rounded-tr-md">
           <h2 className="text-gray-700 font-semibold">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
